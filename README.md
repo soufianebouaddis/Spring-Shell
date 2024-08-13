@@ -13,6 +13,9 @@ This is a simple CLI tool for generating Spring Boot projects using Spring Initi
 
 - Java 17 or higher
 - Maven 3.6.3 or higher
+## Start the shell app project 
+
+mvn spring-boot:run
 
 ## Usage
 
@@ -21,7 +24,6 @@ This is a simple CLI tool for generating Spring Boot projects using Spring Initi
 To display all available commands and their descriptions, use the following command:
 
 ```bash
-mvn spring-boot:run
 help
 gen maven-project jar java 3.3.0 demo com.example my-app My-Application spring-project com.example.demo web,devtools,data-jpa
 
