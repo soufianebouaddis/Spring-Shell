@@ -21,7 +21,8 @@ This is a simple CLI tool for generating Spring Boot projects using Spring Initi
 To display all available commands and their descriptions, use the following command:
 
 ```bash
+mvn spring-boot:run
 help
 gen maven-project jar java 3.3.0 demo com.example my-app My-Application spring-project com.example.demo web,devtools,data-jpa
-mvn spring-boot:run
+
 
